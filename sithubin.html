@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .subheading {
+            color: #ffa500;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .card {
+            width: 200px;
+            height: 200px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            margin-top: 10px;
+            font-size: 16px; /* Decreased font size */
+            color: #333333;
+        }
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 20px 0;
+        }
+        .card-link {
+            text-decoration: none;
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 768px) {
+            .card {
+                width: 150px;
+                height: 150px;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SIT HUB</h1>
+        <h2 class="subheading">Attention siliconites! We encourage you to contribute to the SIT HUB community by uploading study materials. Your contributions will help your fellow students excel in their studies. Let's make learning collaborative and impactful!</h2>
+    </div>
+    <div class="container">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdkCz7QpHAA0zu_779OXP2NUfLcEQ8sHBIg-oHJjAHW2yYkYw/viewform" class="card card-link">
+            <h2>Upload</h2>
+            <!-- Content for Upload Materials -->
+        </a>
+        <div class="divider"></div>
+        <a href="sithub.html" class="card card-link">
+            <h2>First Year</h2>
+            <!-- Content for First Year -->
+        </a>
+        <div class="card">
+            <h2>Second Year</h2>
+            <!-- Content for Second Year -->
+        </div>
+        <div class="card">
+            <h2>Third Year</h2>
+            <!-- Content for Third Year -->
+        </div>
+        <div class="card">
+            <h2>Fourth Year</h2>
+            <!-- Content for Fourth Year -->
+        </div>
+    </div>
+</body>
+    <br>
+    <br>
+    <br>
+</html>
