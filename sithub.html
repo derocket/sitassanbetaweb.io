@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sithub.css">
+  <title>Ebook Web App</title>
+</head>
+<body>
+  <header>
+    <h1>1ST YEAR COLLECTION</h1>
+
+  </header>
+  <div class="search-container">
+    <input type="text" id="searchBar" placeholder="Search study materials...">
+    <button id="searchButton">Search</button>
+    <a href="https://www.google.com" target="_self" class="upload-button">Upload</a>
+
+
+  </div>
+  <div class="scroll-view">
+    <div class="categories" id="categoryContainer">
+      <!-- Categories will be added here dynamically -->
+    </div>
+  </div>
+  <div class="main-content" id="mainContent">
+    <!-- Ebooks will be added here dynamically -->
+  </div>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeBtn">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <button id="viewDownloadBtn" class="view-download-button">View/Download</button>
+    </div>
+  </div>
+  <script src="sithub.js"></script>
+ 
+</body>
+
+<footer>
+  <p>&copy; 2023 SIT ASSAN BETA. All rights reserved.</p>
+</footer>
+
+
+</html>

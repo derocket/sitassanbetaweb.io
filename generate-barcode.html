@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="generate-barcode.css">
+  <title>Cute Barcode Generator</title>
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>GET YOUR SIC BARCODE</h2>
+    </div>
+    <div class="image">
+      <img src="barcode.png" alt="barcode" class="barcode">
+    </div>
+    <h1>Enter Your SIC</h1>
+    <input type="text" id="barcodeInput" placeholder="Enter text">
+    <button id="generateButton">Generate</button>
+    <div id="barcode"></div>
+  </div>
+  <script src="generate-barcode.js"></script>
+</body>
+</html>
