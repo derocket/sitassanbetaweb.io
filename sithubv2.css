@@ -123,3 +123,32 @@ header h1 {
   .category:hover {
     background-color: #0056b3;
   }
+
+
+  @media (max-width: 768px) {
+  /* Adjust card styles for tablets and smaller screens */
+  .ebook-card {
+    width: 150px;
+    height: 150px;
+  }
+  .ebook-card img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-bottom: 10px;
+  }
+ 
+}
+
+@media (max-width: 480px) {
+  /* Adjust card styles for smartphones */
+  .ebook-card {
+    width: 120px;
+    height: 120px;
+  }
+  .ebook-card img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 8px;
+  }
+ 
+}
