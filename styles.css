@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center the cards horizontally */
+  gap: 15px; /* Add gap between cards */
 }
 
 .card-link {
@@ -38,7 +39,7 @@ body {
 }
 
 .card {
-  width: 100%; /* Take up full width of the container */
+  flex: 1; /* Distribute available space equally */
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -46,7 +47,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px 0; /* Add vertical margin */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .card-title {
-  font-size: 18px;
+  font-size: 14px;
   color: #007BFF;
   text-align: center;
   margin: 0;
