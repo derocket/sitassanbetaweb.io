@@ -34,6 +34,33 @@ const ebooks = [
   { title: 'Ebook 1', description: 'Description of Ebook 1', image: 'ebook1.png', url: 'ebook1.pdf', categories: ['Category 1'] },
   { title: 'Ebook 2', description: 'Description of Ebook 2', image: 'ebook2.png', url: 'ebook2.pdf', categories: ['Category 2'] },
   // Add more ebooks here with their specific details
+
+
+
+
+
+
+  { title: 'DSA', description: 'Description of Ebook 1', image: 'ebook1.png', url: 'ebook1.pdf', categories: ['DSA'] },
+  { title: 'Ebook 2', description: 'Description of Ebook 2', image: 'ebook2.png', url: 'ebook2.pdf', categories: ['Category 2'] },
+  // Add more ebooks here with their specific details
+  { title: 'Image ENV', description: 'Image for SIT HUB', image: 'envimg.png', url: 'ebook1.pdf', categories: ['IMAGE'] },
+  { title: 'Image CI', description: 'Image for SIT HUB', image: 'ciimg.png', url: 'ebook2.pdf', categories: ['IMAGE'] },
+  // Add more ebooks here with their specific details
+  { title: 'Image mathformula', description: 'Image for SIT HUB', image: 'mathformulaimg.png', url: 'ebook1.pdf', categories: ['IMAGE'] },
+  { title: 'Image PYQ', description: 'Image for SIT HUB', image: 'pyqimg.png', url: 'ebook2.pdf', categories: ['IMAGE'] },
+  // Add more ebooks here with their specific details
+  { title: 'Image math', description: 'Image for SIT HUB', image: 'mathsimg.png', url: 'ebook1.pdf', categories: ['IMAGE'] },
+  { title: 'Image ED', description: 'Image for SIT HUB', image: 'edimg.png', url: 'ebook2.pdf', categories: ['IMAGE'] },
+  // Add more ebooks here with their specific details
+  { title: 'Image English', description: 'Image for SIT HUB', image: 'englishimg.png', url: 'ebook1.pdf', categories: ['IMAGE'] },
+  { title: 'Image MP', description: 'Image for SIT HUB', image: 'mpimg.png', url: 'ebook2.pdf', categories: ['IMAGE'] },
+  // Add more ebooks here with their specific details
+  { title: 'Image Math2', description: 'Image for SIT HUB', image: 'mathimg2.png', url: 'ebook1.pdf', categories: ['IMAGE'] },
+  { title: 'Image ENG2', description: 'Image for SIT HUB', image: 'engimg2.png', url: 'ebook2.pdf', categories: ['IMAGE'] },
+  // Add more ebooks here with their specific details
+  { title: 'Image Notebook', description: 'Image for SIT HUB', image: 'notebookimg.png', url: 'ebook1.pdf', categories: ['IMAGE'] },
+  { title: 'Image eBOOK', description: 'Image for SIT HUB', image: 'ebookimg.png', url: 'ebook2.pdf', categories: ['IMAGE'] },
+  // Add more ebooks here with their specific details
   
 ];
 
