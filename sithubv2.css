@@ -150,7 +150,7 @@ header h1 {
 
   #data-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); /* Two columns on mobile view */
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); /* Two columns on mobile view */
   gap: 10px;
   padding: 10px;
 
